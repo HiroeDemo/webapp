@@ -16,7 +16,7 @@ if uploaded_file is not None:
     
     # 縮小比率と画質のスライダー
     ratio = st.slider("縮小比率（1/n）", 1, 10, 1)
-    quality = st.slider("画質（1-100）", 1, 100, 85)
+    quality = st.slider("画質（1-100）", 1, 100, 100)
     
     # 画像の縮小
     width, height = image.size
